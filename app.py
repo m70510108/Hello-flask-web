@@ -15,3 +15,5 @@ if __name__ == "__main__":
     #debug mode=False 才不會洩漏code中的資料
     #但他不會自動變更望葉，要跳出諸端雞重啟
     #use_reloader = True自動變更
+
+#同步變更1先更新自己在github == git push
