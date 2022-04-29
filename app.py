@@ -17,3 +17,4 @@ if __name__ == "__main__":
     #use_reloader = True自動變更
 
 #同步變更1先更新自己在github == git push
+#編輯
