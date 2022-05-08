@@ -1,9 +1,9 @@
-from flask import Flask, render_template #import類別
+from flask import Flask#import類別
 app = Flask(__name__)#實體化物件給名稱"app"
 
 @app.route('/')#裝飾器(更目錄、路由)
-def main():
-    return render_template('first_edtion.html')
+def index():
+    return '<h1>Hello, Maggie!</h1>'
 
 def about():
     return 'About this website'
